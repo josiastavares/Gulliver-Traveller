@@ -1,0 +1,310 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho{
+    height: 400px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/Banners/Bannernovo.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.menu{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-menu{
+    height: 35px;
+}
+
+.menu-navegacao{
+    width: 780px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.slogan{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.acesso-rapido{
+    width: 700px;
+    height: 160px;
+    background-color: #035397;
+    text-align: center;
+    margin: -80px auto 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.acesso-titulo{
+    font-size: 20px;
+    font-weight: 700px;
+    color: #FFFFFF;
+}
+.acesso-boxes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.acesso-item{
+    height: 80px;
+    width: 100px;
+    background-color: #ccc;
+}
+
+.sobre{
+    margin: 50px auto;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa-texto-sobre{
+    width: 45%;
+}
+
+.caixa-imagem-sobre{
+    width: 45%;
+}
+
+.subtitulo{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.titulo-sobre{
+    color: #000;
+    text-align: left;
+}
+
+.imagem-sobre{
+    height: 300px;
+    width: 500px;
+}
+
+.oque-fazemos{
+    height: 350px;
+    background-color: #035397;
+    padding: 50px 100px;
+}
+
+.titulo-oque-fazemos{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.caixa-oque-fazemos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.item-oque-fazemos{
+    display: flex;
+    background-color: #FFFFFF50;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones-indicacoes{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 20px;
+}
+
+.texto-indicacoes{
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.melhores-viagens{
+    padding: 50px 100px;
+}
+
+.titulo-melhores-viagens{
+    color: #000000;
+    text-align: center;
+}
+
+.caixa-melhores-viagens{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.item-melhores-viagens{
+    width: 230px;
+    height: 320px;
+    background-color: #035397;
+    border-radius: 10px;
+    display: grid;
+}
+
+.imagem-melhores-viagens{
+    width: 230px;
+    height: 160px;
+    border-radius: 10px 10px 0 0;
+}
+
+.titulo-pais{
+    margin-top: -5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #E8630A;
+}
+
+.ponto-turistico{
+    text-align: center;
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.botao-melhores-viagens{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #FFFFFF30;
+    border: 1px solid #FFFFFF;
+    padding: 8px 30px;
+    justify-self: center;
+    margin: 10px 0 10px;
+}
+
+.botao-melhores-viagens:hover{
+    background-color: #FFFFFF;
+    color: #035397;
+}
+
+.hospedagens-populares{
+    padding: 50px 100px;
+    margin-bottom: 50px;
+}
+
+.titulo-hospedagens-populares{
+    color: #000000;
+    text-align: center;
+}
+
+.caixa-hospedagem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hospedagem{
+    width: 250px;
+    margin-top: 30px;
+}
+
+.imagem-hospedagem{
+    width: 250px;
+    height: 200px;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.lugar{
+    width: 52%;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.estrela{
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.avaliacao{
+    display: inline;
+    font-weight: 700;
+}
+
+.paises-visitados{
+    background-color: #035397;
+    padding: 50px 100px 80px;
+}
+
+.titulo-paises-visitados{
+    color: white;
+    text-align: center;
+}
+
+.caixa-paises{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bandeira{
+    width: 150px;
+    height: 90px;
+}
+
+.seta{
+    font-size: 30px;
+}
+
+.rodape{
+    height: 100px;
+    background-color: #1E1E1E;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-rodape{
+    width: auto;
+    height: 30px;
+}
+
+.redes-sociais{
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones-sociais{
+    width: auto;
+    height: 25px;
+}
